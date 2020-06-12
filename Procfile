@@ -1,1 +1,1 @@
-web: gunicorn HelpProject.wsgi
+web: gunicorn HelpProject.wsgi:application --log-file -
